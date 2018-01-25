@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D1D468556B59F649132A137 /* Pods_Student_Registration_GDP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E8969C9C20811CB9A66ADF /* Pods_Student_Registration_GDP.framework */; };
 		DE564745201A3E7B00CC2DD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE564744201A3E7B00CC2DD1 /* AppDelegate.swift */; };
-		DE564747201A3E7B00CC2DD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE564746201A3E7B00CC2DD1 /* ViewController.swift */; };
 		DE56474A201A3E7B00CC2DD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE564748201A3E7B00CC2DD1 /* Main.storyboard */; };
 		DE56474C201A3E7B00CC2DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE56474B201A3E7B00CC2DD1 /* Assets.xcassets */; };
 		DE56474F201A3E7B00CC2DD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE56474D201A3E7B00CC2DD1 /* LaunchScreen.storyboard */; };
+		DE564757201A505600CC2DD1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE564756201A505600CC2DD1 /* GoogleService-Info.plist */; };
+		DE564759201A564800CC2DD1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE564758201A564800CC2DD1 /* SignUpViewController.swift */; };
+		DE56475B201A565A00CC2DD1 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE56475A201A565A00CC2DD1 /* LogInViewController.swift */; };
+		DE56475D201A567000CC2DD1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE56475C201A567000CC2DD1 /* HomeViewController.swift */; };
+		DE56475F201A568200CC2DD1 /* StudentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE56475E201A568200CC2DD1 /* StudentsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24D05A3F40609C819F649DCC /* Pods-Student Registration GDP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Student Registration GDP.release.xcconfig"; path = "Pods/Target Support Files/Pods-Student Registration GDP/Pods-Student Registration GDP.release.xcconfig"; sourceTree = "<group>"; };
+		3FA66C1C5FA111D0C52D91E4 /* Pods-Student Registration GDP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Student Registration GDP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Student Registration GDP/Pods-Student Registration GDP.debug.xcconfig"; sourceTree = "<group>"; };
+		97E8969C9C20811CB9A66ADF /* Pods_Student_Registration_GDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Student_Registration_GDP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE564741201A3E7B00CC2DD1 /* Student Registration GDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Student Registration GDP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE564744201A3E7B00CC2DD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE564746201A3E7B00CC2DD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DE564749201A3E7B00CC2DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE56474B201A3E7B00CC2DD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE56474E201A3E7B00CC2DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE564750201A3E7B00CC2DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE564756201A505600CC2DD1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DE564758201A564800CC2DD1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		DE56475A201A565A00CC2DD1 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		DE56475C201A567000CC2DD1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DE56475E201A568200CC2DD1 /* StudentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D1D468556B59F649132A137 /* Pods_Student_Registration_GDP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F10400C03CF8459278D6BB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FA66C1C5FA111D0C52D91E4 /* Pods-Student Registration GDP.debug.xcconfig */,
+				24D05A3F40609C819F649DCC /* Pods-Student Registration GDP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94BC22A8AC5A392C8A8B1BE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97E8969C9C20811CB9A66ADF /* Pods_Student_Registration_GDP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DE564738201A3E7A00CC2DD1 = {
 			isa = PBXGroup;
 			children = (
 				DE564743201A3E7B00CC2DD1 /* Student Registration GDP */,
 				DE564742201A3E7B00CC2DD1 /* Products */,
+				0F10400C03CF8459278D6BB4 /* Pods */,
+				94BC22A8AC5A392C8A8B1BE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +87,15 @@
 			isa = PBXGroup;
 			children = (
 				DE564744201A3E7B00CC2DD1 /* AppDelegate.swift */,
-				DE564746201A3E7B00CC2DD1 /* ViewController.swift */,
 				DE564748201A3E7B00CC2DD1 /* Main.storyboard */,
 				DE56474B201A3E7B00CC2DD1 /* Assets.xcassets */,
 				DE56474D201A3E7B00CC2DD1 /* LaunchScreen.storyboard */,
 				DE564750201A3E7B00CC2DD1 /* Info.plist */,
+				DE564756201A505600CC2DD1 /* GoogleService-Info.plist */,
+				DE564758201A564800CC2DD1 /* SignUpViewController.swift */,
+				DE56475A201A565A00CC2DD1 /* LogInViewController.swift */,
+				DE56475C201A567000CC2DD1 /* HomeViewController.swift */,
+				DE56475E201A568200CC2DD1 /* StudentsTableViewController.swift */,
 			);
 			path = "Student Registration GDP";
 			sourceTree = "<group>";
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE564753201A3E7B00CC2DD1 /* Build configuration list for PBXNativeTarget "Student Registration GDP" */;
 			buildPhases = (
+				A9D0924324B60D2C3561E43F /* [CP] Check Pods Manifest.lock */,
 				DE56473D201A3E7B00CC2DD1 /* Sources */,
 				DE56473E201A3E7B00CC2DD1 /* Frameworks */,
 				DE56473F201A3E7B00CC2DD1 /* Resources */,
+				3DF81060A280AA2DA2323218 /* [CP] Embed Pods Frameworks */,
+				FA088C8D9134530D1B74FAEF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE56474F201A3E7B00CC2DD1 /* LaunchScreen.storyboard in Resources */,
+				DE564757201A505600CC2DD1 /* GoogleService-Info.plist in Resources */,
 				DE56474C201A3E7B00CC2DD1 /* Assets.xcassets in Resources */,
 				DE56474A201A3E7B00CC2DD1 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +171,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3DF81060A280AA2DA2323218 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Student Registration GDP/Pods-Student Registration GDP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Student Registration GDP/Pods-Student Registration GDP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9D0924324B60D2C3561E43F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Student Registration GDP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA088C8D9134530D1B74FAEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Student Registration GDP/Pods-Student Registration GDP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DE56473D201A3E7B00CC2DD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE564747201A3E7B00CC2DD1 /* ViewController.swift in Sources */,
+				DE564759201A564800CC2DD1 /* SignUpViewController.swift in Sources */,
 				DE564745201A3E7B00CC2DD1 /* AppDelegate.swift in Sources */,
+				DE56475B201A565A00CC2DD1 /* LogInViewController.swift in Sources */,
+				DE56475F201A568200CC2DD1 /* StudentsTableViewController.swift in Sources */,
+				DE56475D201A567000CC2DD1 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +371,11 @@
 		};
 		DE564754201A3E7B00CC2DD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA66C1C5FA111D0C52D91E4 /* Pods-Student Registration GDP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Student Registration GDP/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Student-Registration-GDP";
@@ -286,9 +387,11 @@
 		};
 		DE564755201A3E7B00CC2DD1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24D05A3F40609C819F649DCC /* Pods-Student Registration GDP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Student Registration GDP/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Student-Registration-GDP";
